@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 22, 2014, 4:50:17 AM
+    Author     : Venkatesh
+*/
+.boxes {
+	position : relative;
+	background-color:rgb(255,130,255); 
+	width: 40px;
+	border: 1px solid red;
+	float: left;
+	left : 0px;
+        
+}
+.dynamic{
+        position : relative;
+	background-color:red; 
+    border-bottom-color:powderblue;
+    border-left-color:aquamarine;
+    border-top-color:chocolate;
+    border-right-color:darkblue;
+	width: 40px;
+	border: 1px solid red;
+	float: left;
+	left : 0px;
+}
+.static{
+        position : relative;
+	background-color:rgb(0, 38, 255); 
+	width: 40px;
+	border: 1px solid red;
+	float: left;
+	left : 0px;
+}
+.middle{
+    position : relative;
+	background-color:rgb(178, 0, 255); 
+	width: 40px;
+	border: 1px solid red;
+	float: left;
+	left : 0px;
+}

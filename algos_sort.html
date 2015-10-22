@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+	<meta charset="utf-8">  
+	<link href="algos_box.css" rel="stylesheet" type="text/css">
+	<title>Sorting numbers</title>  
+</head>  
+<body style="background-color:yellow">  
+	<div>  
+		<h2></h2>  
+        <form name="form1" action="#"> 
+             Enter one integer at a time in the range [-999, 999] <input type='text' name='input_box' /> 
+			<input value="add" type="button" style="background-color:cyan;" onclick="input_validate(document.form1.input_box.value)" />  
+            <input value="InsertionSort" type="button" style="background-color:deeppink;" onclick="insertionSort()" />
+            <input value="MergeSort" type="button" style="background-color:burlywood" onclick="mergeSort()" />
+            <input value="QuickSort" type="button" style="background-color:mediumpurple" onclick="quickSort_work()" />
+            
+			
+		</form>  
+	</div>	
+		<div id = "animation">
+		</div>
+	  
+<script src="algos_jscript.js"></script>  
+</body>  
+</html> 
